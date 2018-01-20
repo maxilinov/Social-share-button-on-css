@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+<meta charset="UTF-8">
+<title>Social share buttons on CSS</title>
+
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+  <div class="social-share">
+    
+    <a id="facebookShare" href="#" onClick="window.open( 'http://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;" target="_blank">
+      <i class="fa fa-facebook"></i> <span>Поделиться записью</span>
+    </a>
+    <a id="vkShare" href="#" onClick="window.open( 'http://vk.com/share.php?url='+encodeURIComponent(location.href), 'vk-share-dialog', 'width=626,height=436'); return false;" target="_blank">
+      <i class="fa fa-vk"></i> <span>Поделиться записью</span>
+    </a>
+    <a id="twitterShare" href="#" onClick="window.open( 'https://twitter.com/share?url='+encodeURIComponent(location.href), 'twitter-share-dialog', 'width=626,height=436'); return false;" target="_blank">
+      <i class="fa fa-twitter"></i> <span>Поделиться записью</span>
+    </a>
+    
+  </div>
+  </div>
+  
+  </body>
+</html>
